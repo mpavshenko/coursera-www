@@ -1,32 +1,29 @@
-#content{
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*/
+#content {
     height: 1000px;
 }
 
-#menu-btn{
+#header-nav {
+    background: #eeeeee;
 }
 
-#nav-list a {
-  text-align: center;
-}
-
-#nav-list hr {
-    margin: 0;
-}
-
-.panel {
+.pan {
     padding: 20px;
+    background: #eeeeee;
+    margin: 10px 0;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 1.5em;
-}
-
-@media (min-width: 768px) {
-    #nav-list {
-        display: none;
-    }
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
